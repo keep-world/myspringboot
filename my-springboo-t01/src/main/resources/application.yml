@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+spring:
+  profiles:
+    active: myApplycationtest01,redisson,logging,druid,redisTemplate,restTemplate,myproperties,mybatisplus,actuator,jpa,mystarterhello
+
+##代码块的方式设置applycation的配置，等同于其他的applycation-xx.yml文件的效果
+---
+spring:
+  profiles: myApplycationtest01  #指定当前的块的文件名  等同于applycation-xx.yml文件的xx标识当前的配置
+server:
+  port: 8080

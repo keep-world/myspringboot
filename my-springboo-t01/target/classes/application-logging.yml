@@ -1,0 +1,4 @@
+logging:
+#  file: C:\Users\chejl\Desktop\test111111.log   #${random.uuid}
+  level: {com.test: debug}  #map<输出日志的扫描包范围,日志级别>
+  path:  C:\Users\chejl\Desktop\springboot_log

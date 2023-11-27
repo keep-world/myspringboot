@@ -1,0 +1,8 @@
+mybatis:
+  mapper-locations: classpath:/mappers/*.xml
+  type-aliases-package: com.test.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: true
+    cache-enabled: true

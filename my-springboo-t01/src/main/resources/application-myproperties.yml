@@ -1,0 +1,24 @@
+mytest:
+  pinfo:
+    myStr: 小测试配置${random.uuid}
+    myInt: 2
+    myDouble: 111.11
+    myBoolean: true
+    myIntArray: [11,22,33,44,55]
+    myStrArray: [小白1,小白2,小白3]
+    myIntList:
+      - 111
+      - 222
+      - 333
+    myStrList:
+      - 小红11
+      - 小红22
+      - 小红33
+      - 小红${random.uuid}
+      - 小红${mytest.pinfo.myStr}  #引用自定义配置需要写配置的全路径
+    myIntSet: [1111,2222,3333]
+    myStrSet: [小黄111,小黄222,小黄333]
+    myIntIntMap: {1: 11111,2: 22222,3: 33333}
+    myStrStrMap: {小青1: 小兰1,小青2: 小兰1,小青3: 小兰3,小青4: 小兰4}
+    myIntStrMap: {1: 小兰11,2: 小兰11,3: 小兰33,4: 小兰44}
+    myStrIntMap: {小青1: 11,小青2: 11,小青3: 33,小青4: 44}

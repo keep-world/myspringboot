@@ -1,0 +1,10 @@
+{
+  "registry-mirrors": [
+    "https://54jokoeu.mirror.aliyuncs.com",
+    "hub.shangguigu.com"
+  ],
+  "insecure-registries": [
+    "hub.shangguigu.com"
+  ],
+  "storage-driver": "devicemapper"
+}

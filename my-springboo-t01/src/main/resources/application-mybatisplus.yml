@@ -1,0 +1,12 @@
+##当使用mybatisplus时，可以直接使用如下的配置，基本和mybatis相同
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.test.pojo
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    auto-mapping-behavior: full
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+  global-config:
+    logic-delete-value: 0  #0 代表未删除 （逻辑删除，实际表中只在对应字段打上标签表示存在）
+    logic-not-delete-value: 1   #1代表删除 （逻辑删除，实际表中只在对应字段打上标签表示不存在）

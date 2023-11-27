@@ -1,0 +1,203 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo",
+      "type": "com.test.properties.MypropertiesOne"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid",
+      "type": "com.test.properties.MyDruidProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-boolean",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-double",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int-array",
+      "type": "java.lang.Integer[]"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int-int-map",
+      "type": "java.util.Map<java.lang.Integer,java.lang.Integer>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int-list",
+      "type": "java.util.List<java.lang.Integer>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int-set",
+      "type": "java.util.Set<java.lang.Integer>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-int-str-map",
+      "type": "java.util.Map<java.lang.Integer,java.lang.String>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str-array",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str-int-map",
+      "type": "java.util.Map<java.lang.String,java.lang.Integer>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str-list",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str-set",
+      "type": "java.util.Set<java.lang.String>"
+    },
+    {
+      "sourceType": "com.test.properties.MypropertiesOne",
+      "name": "mytest.pinfo.my-str-str-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.connection-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.filters",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.initial-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.jdbc-driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.jdbc-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.jdbc-username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.max-active",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.max-pool-prepared-statement-per-connection-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.max-wait",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.min-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.my-db-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.my-db-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.test-on-borrow",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.test-on-return",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.test-while-idle",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "defaultValue": 0,
+      "name": "spring.datasource.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.use-global-data-source-stat",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.test.properties.MyDruidProperties",
+      "name": "spring.datasource.druid.validation-query",
+      "type": "java.lang.String"
+    }
+  ]
+}
